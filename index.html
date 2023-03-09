@@ -1,3 +1,5 @@
+</html>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +7,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+    <!-- Link a Bootstrap -->
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- Link a nuestro Css --> 
     <link rel="stylesheet" href="./css/style.css" />
+            
     <link rel="shortcut icon"
         href="https://www.shutterstock.com/image-vector/pool-logo-modern-concept-260nw-1996627001.jpg"
         type="image/x-icon" />
@@ -16,65 +25,61 @@
 
 <body>
 
-    <header>
-        <div class="titulo">
-
-            <img class="imagenDeMarca" src="./imagenes/familiahome.jpg" alt="imagen de marca">
-
-
-            <h1>Bienvenidos a Tu Pileta</h1>
-
+    <!-- INICIO TITULO -->
+    <nav class="navbar bg-light">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="#">
+            <img
+              src="./imagenes/1027302.png " alt="Logo"
+              width="80"
+              height="60"
+              class="d-inline-block align-text-top"
+            />
+          </a>
+          <div class="titulo"> Bienvenidos a Mi Pileta </div>
         </div>
+      </nav>
+   
+      <!-- FIN TITULO -->
 
+      <!-- INICIO NAV  -->
 
-    </header>
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./pages/piletas.html">Nuestras Piletas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./pages/accesorios.html">Accesorios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./pages/presupuesto.html">Presupuesto</a>
+        </li>
+      </ul>
 
+      <!-- INICIO FIN NAV  -->
 
-    <div class="barraNavegacion">
-        <nav>
-            <ul>
-                <li><a href="./pages/presupuesto.html"> Tu Presupuesto</a></li>
-                <li>
-                    <a href="./pages/piletas.html"> Nuetros Piletas</a>
-                </li>
-                <li>
-                    <a href="./pages/fabrica.html">
-                        Nuestra Fabrica</a>
-                </li>
-                <li>
-                    <a href="./pages/accesorios.html"> Accesorios</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
+       <!-- INICIO FOTO HOME  -->
 
-    <section id="quienesSomos">
-        <h2>¿Quienes somos?</h2>
-        <p>
-            Somos TuPileta. Cuando hablamos del PILETA nos referimos al tiempo e
-            impacto que tiene la marca TuPileta en el territorio argentino. Fue allí
-            que se gestó, crece y evoluciona positivamente su liderazgo con las
-            mejores piscinas en PRFV. Un producto que conquistó el sueño de más de 50
-            mil familias, siendo la más elegida y recomendada del mercado. Conscientes
-            de ello es que nuestros propios sueños crecen y los hacemos realidad
-            creando un mundo de posibilidades para nuestros clientes. En las rutas y
-            caminos que atraviesan el país siempre hay una piscina TuPileta viajando
-            en forma segura a su destino. 80 puntos de ventas y una eficiente
-            logística hacen posible que digamos con orgullo que Argentina es
-            territorio TuPileta. Y en este TuPileta todo cuanto hacemos y
-            desarrollamos lleva el sello de lo más preciado que tenemos: Nuestra
-            Gente.
-        </p>
+       <div id="imagenHome">  
+    <section > 
+       <img src="./imagenes/familiahome.jpg" class="img-fluid" alt="Foto Familiar">
+    
+    </section>   
+</div>
 
+     <!-- FIN FOTO HOME  -->
 
-
-        <img class="fotoHome" src="../imagenes/familiahome.jpg" alt="Familia en la pileta" />
-    </section>
-
+     <!-- INICIO PILARES  -->
+ 
     <section id="pilares">
 
         <table class="tablaPilares">
-            <h1>Tres pilares que nos definen</h1>
+
+           <h5>Tres pilares que nos definen</h5> 
+
             <tr>
                 <td>
                     <p>Innovacion</p>
@@ -112,10 +117,15 @@
 
     </section>
 
+
+     <!-- FIN PILARES  -->
+
+     <!-- INICIO OPINIONES  -->
+
     <section id="opiniones">
 
 
-        <h2> La felicidad de nuestros clientes, es la ¡NUESTRA!</h2>
+        <h5> La felicidad de nuestros clientes, es la ¡NUESTRA!</h5>
 
         <div class="felicidad">
 
@@ -139,6 +149,8 @@
         </div>
 
     </section>
+
+     <!-- FIN OPINIONES -->
 
     <div id="pieDePagina">  
 
@@ -173,8 +185,11 @@
     </footer>
  
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
 </body>
 
 
 
 </html>
+
