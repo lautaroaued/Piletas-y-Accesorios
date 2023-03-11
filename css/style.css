@@ -217,8 +217,33 @@ tr td p {
 
     background-image: url(../imagenes/pileta6.jfif);
 
+    }
 
-}
+
+
+    @media (max-width: 844px) {
+        .filaSuperior {
+          flex-direction: column;
+          margin: 3px;
+        }
+      
+        .filaInferior {
+          flex-direction: column;
+        }
+
+        .fila1Cuadro1,
+        .fila1Cuadro2,
+        .fila1Cuadro3,
+        .fila2Cuadro1,
+        .fila2Cuadro2,
+        .fila2Cuadro3 {
+            margin-top: 3px;
+            margin-bottom: 3px;
+            width: 95%;
+        }
+        
+      }
+
 
 /*  Pestaña  Acesorios */
 
@@ -319,3 +344,7 @@ tr td p {
         margin: 0;
         box-sizing: border-box;
     }
+
+
+
+ 
