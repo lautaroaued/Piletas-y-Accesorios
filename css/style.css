@@ -95,13 +95,6 @@ margin-bottom: 10px;
 
 /*  Pestaña Nuestros Piletas y Acesorios */
 
-.pestanaPiletas {
-
-    margin-top: 100px;
-    background-color: rgb(163, 214, 243);
-
-}
-
 .principal {
     display: flex;
     flex-direction: column;
@@ -188,6 +181,7 @@ tr td p {
 .imagenFila1Cuadro1 {
 
     background-image: url(../imagenes/pileta1.jfif);
+    
 
 
 }
@@ -195,19 +189,20 @@ tr td p {
 .imagenFila1Cuadro2 {
 
     background-image: url(../imagenes/pileta2.jfif);
+    
 
 }
 
 .imagenFila1Cuadro3 {
 
     background-image: url(../imagenes/pileta3.jfif);
+    
 
 }
 
 .imagenFila2Cuadro1 {
 
     background-image: url(../imagenes/pileta4.jfif);
-
 
 }
 
