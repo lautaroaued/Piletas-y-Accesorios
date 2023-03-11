@@ -63,18 +63,18 @@
 
        <!-- INICIO FOTO HOME  -->
 
-       <div id="imagenHome">  
+       <div id="imagenHome" style="margin-bottom: 10px;">  
     <section > 
-       <img src="./imagenes/familiahome.jpg" class="img-fluid" alt="Foto Familiar">
+       <img src="./imagenes/familiahome.jpg" class="img-fluid" alt="Foto Familiar" >
     
     </section>   
 </div>
 
      <!-- FIN FOTO HOME  -->
 
-     <!-- INICIO PILARES  -->
+     <!-- INICIO PILARES DE LA MARCA -->
  
-    <section id="pilares">
+    <section id="pilares" style="margin-bottom: 10px;">
 
         <table class="tablaPilares">
 
@@ -124,68 +124,76 @@
 
     <section id="opiniones">
 
+        <div><h5>La Felicidad de nuestros Clientes, es la NUESTRA! </h5> </div>
 
-        <h5> La felicidad de nuestros clientes, es la ¡NUESTRA!</h5>
+        <div id="carouselExample" class="carousel slide">
 
-        <div class="felicidad">
-
-            <div class="Video1">
-
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/4zEpJ2b08AI"
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <iframe width="560" height="315"  class="d-block w-100" alt="..." src="https://www.youtube.com/embed/4zEpJ2b08AI"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
+                    allowfullscreen></iframe> 
+              </div>
 
-            </div>
-
-            <div class="Video2">
-
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/eW33KJE361o"
+              <div class="carousel-item">
+          
+                <iframe width="560" height="315" class="d-block w-100" alt="..."src="https://www.youtube.com/embed/eW33KJE361o"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
-            </div>
+                    allowfullscreen>
+                
+                </iframe>
 
-        </div>
+              </div>
+             
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
 
     </section>
 
      <!-- FIN OPINIONES -->
 
-    <div id="pieDePagina">  
+     <!-- INICIO FOOTER -->
+
+     <section> 
+
+    <div id="pieDePagina" style="margin-top: 10px;">  
 
     <footer id="footer">
 
-        <h2>Contactanos o veni a visitarnos!</h2>
+        <h5>Contactanos o veni a visitarnos!</h5>
 
-        <div id="pieColumnas">
-            <div id="datosCol1">
-                <li id="listaCol1"> <h3>
-                    <ul> Telefono: 0249 4421156 </ul>
-                    <ul> Celular: 0249 154608367 </ul>
-                    <ul> Email: lautaromaued@gmail.com </ul>
-                </li>  </h3>
+        <ul class="nav justify-content-center" id="pieColumnas">
+            <li class="nav-item" id="datosCol1">
+              <p>Telefono: 0249 4421156</p>
+            </li>
+            <li class="nav-item" >
+              <p>Email: lautaromaued@gmail.com</p>
+            </li>
+            <li class="nav-item">
+              <p>Direccion: Costa Rica 456</p>
+            </li>
+            
+          </ul>
 
-            </div>
-            <div id="datosCol2">
-                <img id="fotoCol2" src="./imagenes/74-747971_design-iconos-de-redes-sociales-png-transparent-png.png" alt="">
-                
-            </div>
-            <div id="datosCol3">
-                <p>
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d6807.501873026046!2d-60.933649!3d-31.448523!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1675189093539!5m2!1ses-419!2sar"
-                        width="300" height="300" style="border: 0" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            </p>
-        </div>
         </div>
     </div>
     </footer>
  
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+
 
 </body>
 

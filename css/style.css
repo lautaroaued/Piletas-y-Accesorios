@@ -43,7 +43,7 @@ p {
 
 
 
-/* IMAGEN CENTRAL */ 
+/* INICIO FOTO HOME */ 
 
 .imagenHome{ 
 margin-bottom: 10px;
@@ -89,86 +89,38 @@ tr td p {
 }
 
 
-/* FELICIDAD DE LOS CLIENTES */
+/* OPINIONES */
 
 .opiniones {
 
     margin-top: 10px;
 }
 
-.felicidad {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
+/* FOOTER */
 
-
-
-
-footer {
-
-    background-color: rgb(163, 214, 243);
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-
-}
 
 #pieColumnas {
     display: flex;
     flex-wrap: nowrap;
     width: 100%;
-    justify-content: space-between;
     margin-top: 10px;
-    column-gap: 10px;
+    column-gap: 40px;
+    font-size: smaller;
+    color: revert;
+    background-color: aliceblue;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #datosCol1 {
 
-    background-color: white;
-    padding-block: 5px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-#listaCol1 {
-    display: inline-flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: start;
-}
-
-ul {
-
-    padding-left: 5px;
-    padding-right: 10px;
-
-}
-
-
-#fotoCol2 {
-
-    width: 400px;
-    height: 250px;
-}
-
-
-
-#datosCol2 {
-
-    background-color: white;
+    
     padding-block: 5px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
 
-
-
-#datosCol3 {
-
-    background-color: white;
-    padding-block: 5px;
-}
 
 
 /*  Pestaña Nuestros Piletas y Acesorios */
