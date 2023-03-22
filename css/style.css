@@ -262,12 +262,15 @@ tr td p {
       } 
     
     
-      .container-nosotros {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        text-align: center;
-    }
+   
 
+ .containerNosotros {
+
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+ }
 
 
 .prepuesto {
