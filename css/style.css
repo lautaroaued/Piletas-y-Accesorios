@@ -248,95 +248,27 @@ tr td p {
 /*  Pestaña  Acesorios */
 
 
-.acFila1Cuadro1,
-.acFila1Cuadro2,
-.acFila1Cuadro3,
-.acFila2Cuadro1,
-.acFila2Cuadro2,
-.acFila2Cuadro3 {
 
-    border: solid;
-    border-color: red;
-    width: 30%;
-    height: 200px;
-
-}
-
-
-.imagenAcFila1Cuadro1,
-.imagenAcFila1Cuadro2,
-.imagenAcFila1Cuadro3,
-.imagenAcFila2Cuadro1,
-.imagenAcFila2Cuadro2,
-.im {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
-}
-
-.imagenAcFila1Cuadro1 {
-    background-image: url(../imagenes/accesorio1.jpg);
-    width: 60%;
-    height: 60%;
-
-}
-
-.imagenAcFila1Cuadro2 {
-    background-image: url(../imagenes/acceso2.jpg);
-    width: 60%;
-    height: 60%;
-
-}
-
-.imagenAcFila1Cuadro3 {
-    background-image: url(../imagenes/accesorio3.jpg);
-    width: 60%;
-    height: 60%;
-
-}
-
-.imagenAcFila2Cuadro1 {
-    background-image: url(../imagenes/accesorio4.jpg);
-    width: 60%;
-    height: 60%;
-
-}
-
-.imagenAcFila2Cuadro2 {
-    background-image: url(../imagenes/accesorio5.jpg);
-    width: 60%;
-    height: 60%;
-
-}
-
-
-.imagenAcFila2Cuadro3 {
-    background-image: url(../imagenes/accesorio6.jpg);
-    width: 60%;
-    height: 60%;
-
-}
 
 
 /*  Pestaña Nuestros Trabajos */
 
-.nuestrosFabrica {
-    margin: 0;
-    padding: 0;
-    display: block;
-    width: 100%;
-    height: 100%;
 
 
-}
+@media (min-width: 390px) { 
+    .d-md-block {
+        display: block!important;
+    }
+      } 
+    
+    
+      .container-nosotros {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
 
-.nFabrica1,
-.nFabrica2 {
 
-    width: 50%;
-
-}
 
 .prepuesto {
 
