@@ -93,7 +93,7 @@ margin-bottom: 10px;
 }
 
 
-/*  Pestaña Nuestros Piletas y Acesorios */
+/*  Pestaña Nuestros Piletas  */
 
 .principal {
     display: flex;
@@ -111,7 +111,7 @@ li {
     display: inline-flex;
     justify-content: space-between;
     border: solid 0px black;
-    ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
@@ -155,7 +155,7 @@ tr td p {
 .fila2Cuadro3 {
 
     border: solid;
-    border-color: red;
+    border-color: rgb(107, 153, 239);
     width: 30%;
     height: 200px;
 
@@ -220,6 +220,7 @@ tr td p {
     }
 
 
+/*  Pestaña Nuestros Piletas  - Orden cuando se hace responsive */
 
     @media (max-width: 844px) {
         .filaSuperior {
@@ -245,12 +246,6 @@ tr td p {
       }
 
 
-/*  Pestaña  Acesorios */
-
-
-
-
-
 /*  Pestaña Nuestros Trabajos */
 
 
@@ -272,6 +267,8 @@ tr td p {
     text-align: center;
  }
 
+
+ /*  Pestaña  Presupuesto */
 
 .prepuesto {
 
