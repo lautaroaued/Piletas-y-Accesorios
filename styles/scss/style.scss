@@ -1,38 +1,8 @@
 @import "./components/nav";
 @import "./abstracts/variables";
-
-
-
-/* Estilos de la HOME */
-
-body {
-
-    display: block;
-    justify-content: space-around;
-
-
-}
-
-
-h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    background-color: rgb(163, 214, 243)
-}
-
-h5 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: rgb(163, 214, 239);
-    text-align: center;
-    
-
-}
-
-p {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   
-
-
-
-
- 
+@import "./components/footer";
+@import "./pages/home";
+@import "./pages/nuestrasPiletas";
+@import "./pages/nosotros";
+@import "./pages/presupuesto";
+@import "./components/generales";
