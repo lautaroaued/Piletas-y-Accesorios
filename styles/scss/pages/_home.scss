@@ -1,14 +1,38 @@
 /* INICIO FOTO HOME */
 .imagenHome {
-    margin-bottom: 10px;
-  }
-  
-  /* PILARES DE LA MARCA */
+  margin-bottom: 10px;
+}
+
+/* PILARES DE LA MARCA */
+
+.pilares {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.pilar {
+  width: 30%;
+  padding: 20px;
+
+}
+
+@media (max-width: 475px) {
   .pilares {
-    margin-top: 10px;
+    flex-direction: column;
   }
-  
-  /* OPINIONES */
-  .opiniones {
-    margin-top: 10px;
+
+  .pilar {
+    width: 100%;
   }
+}
+
+
+
+/* OPINIONES */
+.opiniones {
+  margin-top: 10px;
+}
