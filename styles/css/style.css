@@ -180,7 +180,7 @@ tr td p {
 
 .imagenFila1Cuadro1 {
 
-    background-image: url(../imagenes/pileta1.jfif);
+    background-image: url(/imagenes/pileta1.jpg);
     
 
 
@@ -188,34 +188,34 @@ tr td p {
 
 .imagenFila1Cuadro2 {
 
-    background-image: url(../imagenes/pileta2.jfif);
+    background-image: url(/imagenes/pileta2.jpg);
     
 
 }
 
 .imagenFila1Cuadro3 {
 
-    background-image: url(../imagenes/pileta3.jfif);
+    background-image: url(/imagenes/pileta3.jpg);
     
 
 }
 
 .imagenFila2Cuadro1 {
 
-    background-image: url(../imagenes/pileta4.jfif);
+    background-image: url(/imagenes/pileta4.jpg);
 
 }
 
 .imagenFila2Cuadro2 {
 
-    background-image: url(../imagenes/pileta5.jfif);
+    background-image: url(/imagenes/pileta5.jpg);
 
 
 }
 
 .imagenFila2Cuadro3 {
 
-    background-image: url(../imagenes/pileta6.jfif);
+    background-image: url(/imagenes/pileta6.jpg);
 
     }
 
