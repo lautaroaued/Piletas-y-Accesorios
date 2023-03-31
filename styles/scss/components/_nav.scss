@@ -8,3 +8,55 @@
     background-color: rgb(107, 153, 239);
   }
   
+
+
+/* Estilos de la NAV MOVIL */
+
+
+  body { 
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    }
+
+
+
+ @media screen and (max-width:400px) {
+      .navbar-celularoff,
+      .nav-opciones { 
+          display: none;
+          padding-top: 16px;
+          padding-bottom: 16px;
+  
+      }
+    
+     
+      }
+
+
+
+
+@media screen and (min-width:400px) {
+    .navbar-celular { 
+        display: none;
+        padding-top: 0px;
+        
+    }
+  
+   
+    }
+
+  
+
+
+.foto { 
+
+    width: 30px;
+    height: 30px;
+}
+
+.nav-espacio{
+    padding: 16px 0;
+     }
