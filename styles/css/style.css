@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* Estilos de la NAV */
+/* Estilos de la NAV RESOLUCION WEB-TABLET*/
 .titulo {
   margin: 0 auto;
   font-size: larger;
@@ -9,7 +9,7 @@
   background-color: rgb(107, 153, 239);
 }
 
-/* Estilos de la NAV MOVIL */
+/* Estilos de la NAV RESOLUCION MOVIL */
 body {
   padding: 0;
   margin: 0;
@@ -23,13 +23,19 @@ body {
     padding-top: 16px;
     padding-bottom: 16px;
   }
+  #imagenHome {
+    padding-top: 45px;
+  }
 }
 @media screen and (min-width: 400px) {
   .navbar-celular {
     display: none;
-    padding-top: 0px;
   }
 }
+.navbar-celular {
+  padding: 0;
+}
+
 .foto {
   width: 30px;
   height: 30px;
@@ -37,6 +43,14 @@ body {
 
 .nav-espacio {
   padding: 16px 0;
+}
+
+.offcanvas-header {
+  background-color: rgb(107, 153, 239);
+}
+
+.offcanvas-body {
+  background-color: azure;
 }
 
 /* FOOTER */
