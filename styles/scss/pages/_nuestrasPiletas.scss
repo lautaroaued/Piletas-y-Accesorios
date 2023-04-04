@@ -93,6 +93,7 @@
   }
   
   /*  Pestaña Nuestros Piletas  - Orden cuando se hace responsive */
+ 
   @media (max-width: 844px) {
     .filaSuperior {
       flex-direction: column;
@@ -107,7 +108,7 @@
     .fila2Cuadro1,
     .fila2Cuadro2,
     .fila2Cuadro3 {
-      margin-top: 3px;
+      margin-top: 55px;
       margin-bottom: 3px;
       width: 95%;
     }

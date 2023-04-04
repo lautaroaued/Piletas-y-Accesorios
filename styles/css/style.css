@@ -213,7 +213,7 @@ tr td p {
   .fila2Cuadro1,
   .fila2Cuadro2,
   .fila2Cuadro3 {
-    margin-top: 3px;
+    margin-top: 55px;
     margin-bottom: 3px;
     width: 95%;
   }
@@ -231,6 +231,11 @@ tr td p {
   text-align: center;
 }
 
+@media screen and (max-width: 400px) {
+  .carousel-inner {
+    padding-top: 50px;
+  }
+}
 /*  Pestaña  Presupuesto */
 .prepuesto {
   padding: 0;
@@ -242,6 +247,22 @@ tr td p {
   margin: auto;
 }
 
+/*  Pestaña  Presupuesto resolucion Movil */
+@media screen and (min-width: 400px) {
+  .presupuesto-movil {
+    padding-top: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .presupuesto-movil {
+    padding-top: 40px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .accesorios-movil {
+    padding-top: 50px;
+  }
+}
 body {
   display: block;
   justify-content: space-around;

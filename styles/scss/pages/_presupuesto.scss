@@ -12,3 +12,23 @@
     margin: auto;
   }
   
+  /*  Pestaña  Presupuesto resolucion Movil */
+
+  @media screen and (min-width:400px) {
+    .presupuesto-movil { 
+
+      padding-top: 0;
+    }
+   
+   
+    }
+
+    @media screen and (max-width:400px) {
+      .presupuesto-movil { 
+
+       
+        padding-top: 40px;
+      }
+     
+           
+      }
