@@ -175,27 +175,27 @@ tr td p {
 }
 
 .imagenFila1Cuadro1 {
-  background-image: url(../../imagenes/pfibra1.jpg);
+  background-image: url(../../imagenes/pileta1.jpg);
 }
 
 .imagenFila1Cuadro2 {
-  background-image: url(/imagenes/pileta2.jpg);
+  background-image: url(../../imagenes/pileta2.jpg);
 }
 
 .imagenFila1Cuadro3 {
-  background-image: url(/imagenes/pileta3.jpg);
+  background-image: url(../../imagenes/pileta3.jpg);
 }
 
 .imagenFila2Cuadro1 {
-  background-image: url(/imagenes/pileta4.jpg);
+  background-image: url(../../imagenes/pileta4.jpg);
 }
 
 .imagenFila2Cuadro2 {
-  background-image: url(/imagenes/pileta5.jpg);
+  background-image: url(../../imagenes/pileta5.jpg);
 }
 
 .imagenFila2Cuadro3 {
-  background-image: url(/imagenes/pileta6.jpg);
+  background-image: url(../../imagenes/pileta6.jpg);
 }
 
 /*  Pestaña Nuestros Piletas  - Orden cuando se hace responsive */
